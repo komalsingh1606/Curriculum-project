@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCC</title>
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+     <style>
+        html{scroll-behavior:smooth;}
+        body{margin:0;padding:0;background-color:#dedede;}
+
+        /* NAVBAR  */
+        nav{margin:0;padding:0;width:100%;margin-top:-5px;}
+        #navbar li a{font-size:20px;font-family:'Times New Roman', Times, serif}
+        #slide-out li a{font-size:20px;font-family:'Times New Roman', Times, serif}
+
+     </style>
+</head>
+
+
+<body>
+    <!--  HEADER  -->
+    <header style="margin:0;padding:0;">
+        <img src="hologram.png" alt="" class="responsive-img" width="100%">
+    </header>
+    <!--  HEADER END  -->
+
+    <!--  NAVBAR  -->
+
+    <!-- DESKTOP NAVBAR-->
+    <nav class="blue-grey darken-1">
+      <div class="nav-wrapper">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="index.html"><i class="material-icons show-on-medium-and-down hide-on-large-only">home</i></a>  
+        <ul class="left hide-on-med-and-down" id="navbar" style="padding-left:1%">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1a">Course <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger truncate" href="#!" data-target="dropdown2a">Faculty Member <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger truncate" href="#!" data-target="dropdown3a">E-Content <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown4a">Facility <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger truncate" href="#!" data-target="dropdown5a">Extra Curriculum <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown6a">NAAC <i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown7a">Login <i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  <!--  DESKTOP NAVBAR END  -->
+
+  <!--  MOBILE NAVBAR -->
+    <ul class="sidenav blue-grey lighten-5" id="slide-out">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1b">Course <i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-trigger truncate" href="#!" data-target="dropdown2b">Faculty Member <i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-trigger truncate" href="#!" data-target="dropdown3b">E-Content <i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown4b">Facility <i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-trigger truncate" href="#!" data-target="dropdown5b">Extra Curriculum <i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown6b">NAAC <i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown7b">Login <i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+    <!--  MOBILE NAVBAR END  -->
+
+    <!--  COURSE SUBMENU FOR DESKTOP  -->
+    <ul id="dropdown1a" class="dropdown-content">
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Intermediate</a></li>
+      <li class="divider"></li>
+      <li><a href="ugcourse.html" class="blue-grey darken-2" style="color:#44fff4;">UG</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">PG</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2 truncate" style="color:#44fff4;">Certificate<br>Course</a></li>
+    </ul>
+     <!--  COURSE SUBMENU FOR DESKTOP END -->
+
+    <!--  COURSE SUBMENU FOR MOBILE  -->
+    <ul id="dropdown1b" class="dropdown-content">
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Intermediate</a></li>
+      <li><a href="ugcourse.html" class="blue-text text-darken-4 blue-grey lighten-4">UG</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">PG</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Certificate Course</a></li>
+    </ul>
+    <!--  COURSE SUBMENU FOR MOBILE END -->
+
+    <!--  FACULTY MEMBER SUBMENU FOR DESKTOP  -->
+    <ul id="dropdown2a" class="dropdown-content" style="margin-top:110%;">
+      <li><a href="teachingmember.html" class="blue-grey darken-2" style="color:#44fff4;">Teaching</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Non-Teaching</a></li>
+    </ul>
+    <!--  FACULTY MEMBER SUBMENU FOR DESKTOP END -->
+
+    <!--  FACULTY MEMBER SUBMENU FOR MOBILE  -->
+    <ul id="dropdown2b" class="dropdown-content">
+      <li><a href="teachingmember.html" class="blue-text text-darken-4 blue-grey lighten-4">Teaching</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Non-Teaching</a></li>
+    </ul>
+    <!--  FACULTY MEMBER SUBMENU FOR MOBILE END -->
+
+    <!--  E-CONTENT SUBMENU FOR DESKTOP  -->
+    <ul id="dropdown3a" class="dropdown-content">
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Intermediate</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">UG</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">PG</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2 truncate" style="color:#44fff4;">Certificate<br>Course</a></li>
+    </ul>
+     <!--  E-CONTENT SUBMENU FOR DESKTOP END -->
+
+    <!--  E-CONTENT SUBMENU FOR MOBILE  -->
+    <ul id="dropdown3b" class="dropdown-content">
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Intermediate</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">UG</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">PG</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Certificate Course</a></li>
+    </ul>
+    <!--  E-CONTENT SUBMENU FOR MOBILE END -->
+
+
+    <!--  FACILITY SUBMENU FOR DESKTOP  -->
+    <ul id="dropdown4a" class="dropdown-content">
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">IGNOU</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Bank</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Canteen</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Common Room</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Library</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2 truncate" style="color:#44fff4;">Parking</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Playground</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2 truncate" style="color:#44fff4;">Student Help<br>Center</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Wi-Fi</a></li>
+    </ul>
+     <!--  FACILITY SUBMENU FOR DESKTOP END -->
+
+      <!--  FACILITY MEMBER SUBMENU FOR MOBILE  -->
+    <ul id="dropdown4b" class="dropdown-content">
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">IGNOU</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Bank</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Canteen</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Common Room</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Library</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Parking</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Playground</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4 truncate">Student Help Center</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Wi-Fi</a></li>
+    </ul>
+    <!--  FACILITY MEMBER SUBMENU FOR MOBILE END -->
+     
+    <!--  EXTRA-CURRICULUM SUBMENU FOR DESKTOP  -->
+    <ul id="dropdown5a" class="dropdown-content">
+      <li><a href="ncc.html" class="blue-grey darken-2" style="color:#44fff4;">NCC</a></li>
+      <li class="divider"></li>
+      <li><a href="nss.html" class="blue-grey darken-2" style="color:#44fff4;">NSS</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Sports</a></li>
+    </ul>
+     <!--  EXTRA-CURRICULUM SUBMENU FOR DESKTOP END -->
+
+    <!--  EXTRA-CURRICULUM SUBMENU FOR MOBILE  -->
+    <ul id="dropdown5b" class="dropdown-content">
+      <li><a href="ncc.html" class="blue-text text-darken-4 blue-grey lighten-4">NCC</a></li>
+      <li><a href="nss.html" class="blue-text text-darken-4 blue-grey lighten-4">NSS</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Sports</a></li>
+    </ul>
+    <!--  EXTRA-CURRICULUM SUBMENU FOR MOBILE END -->
+
+    <!--  NAAC SUBMENU FOR DESKTOP  -->
+    <ul id="dropdown6a" class="dropdown-content">
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">NAAC</a></li>
+      <li class="divider"></li>
+      <li><a href="iqac.html" class="blue-grey darken-2" style="color:#44fff4;">IQAC</a></li>
+    </ul>
+    <!--  NACC SUBMENU FOR DESKTOP END -->
+
+    <!--  NAAC SUBMENU FOR MOBILE  -->
+    <ul id="dropdown6b" class="dropdown-content">
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">NAAC</a></li>
+      <li><a href="iqac.html" class="blue-text text-darken-4 blue-grey lighten-4">IQAC</a></li>
+    </ul>
+    <!--  NAAC SUBMENU FOR MOBILE END -->
+
+    <!-- LOGIN SUBMENU FOR DESKTOP  -->
+    <ul id="dropdown7a" class="dropdown-content">
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Student Login</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Teacher Login</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">College Login</a></li>
+      <li class="divider"></li>
+      <li><a href="#!" class="blue-grey darken-2" style="color:#44fff4;">Admin Login</a></li>
+    </ul>
+     <!--  LOGIN SUBMENU FOR DESKTOP END -->
+
+    <!--  LOGIN SUBMENU FOR MOBILE  -->
+    <ul id="dropdown7b" class="dropdown-content">
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Student Login</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Teacher Login</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">College Login</a></li>
+      <li><a href="#!" class="blue-text text-darken-4 blue-grey lighten-4">Admin Login</a></li>
+    </ul>
+    <!--  LOGIN SUBMENU FOR MOBILE END -->
+    
+  <!--  NAVBAR END-->
+  
+    <section>
+        <div class="row" style="margin:0;padding:0;">
+            <div class="col s12" class="row" style="margin:0;padding:0;">
+                <div style="width:100%;height:190px;background-color:#faa00b;float:left;">
+                    <div style="width:52%;height:100%;margin-left:10%;">
+                        <div style="float:left;width:25%;">
+                            <img src="ncc/logo.png" alt="" class="responsive-img">
+                        </div>
+                        <div style="float:left;width:70%;">
+                            <h1 style="margin:0;padding:0;font-size:65px;font-family:'Times New Roman', Times, serif;padding-top:20px;color:darkblue;box-sizing:border-box;font-weight:bold;">NCC</h1>
+                            <h3 style="margin:0;padding:0;font-size:32px;color:red;font-family:'Times New Roman', Times, serif;font-weight:bold;">(NATIONAL CADET CORPS)</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color:#faa00b;">
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc1.JPG"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc2.JPG"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc3.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc4.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc5.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc6.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc7.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc8.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc9.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc10.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc11.JPG"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc12.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc13.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc14.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc15.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc16.jpg"  style="margin-top:20px;height:180px">
+            </div>
+            <div class="col xl2 l2 m3 s6">
+                <img class="materialboxed responsive-img" src="ncc/ncc17.jpg"  style="margin-top:20px;height:180px">
+            </div>
+        </div>
+        </div>
+    </section>    
+
+    <!--   FOOTER   -->
+    <footer class="page-footer" style="margin:0;padding:0;float:left;width:100%;height:auto;background-image:url(footerimg.jpg);background-repeat: no-repeat;background-size:100% 100%;">
+        <div style="float:left;width:100%;height:100%;background-color:#201f1f;opacity:0.8;filter:contrast(170%) brightness(145%);">
+          <div class="row">
+              <!--  IMPORTANT LINKS  -->
+            <div class="col xl3 l3 m6 s12">
+                <ul class="collection with-header" style="border:transparent">
+                    <li class="collection-header center-align grey darken-3" style="margin:0;padding:0;padding-top:1px;color:#feb44c;font-family:'Times New Roman', Times, serif;"><h4>Important Links</h4></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="http://tmbuniv.ac.in/"  target="_blank" style="color:#14e2ef;">Tilkamanjhi Bhagalpur University</a></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="http://www.scholarships.gov.in/" target="_blank" style="color:#14e2ef;">National Scholarship Portal</a></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="https://swayam.gov.in/"  target="_blank" style="color:#14e2ef;">SWAYAM Portal</a></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="http://epgp.inflibnet.ac.in/"  target="_blank" style="color:#14e2ef;">e-PG Pathshala</a></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="http://spoken-tutorial.org/"  target="_blank" style="color:#14e2ef;">Spoken Tutorial</a></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="http://edudbt.bih.nic.in/" target="_blank" style="color:#14e2ef;">मुख्यमंत्री कन्या उत्थान योजना</a></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/" target="_blank" style="color:#14e2ef;">7 निश्चय योजना</a></li>
+                  </ul>
+            </div>
+            <!--  IMPORTANT LINKS END -->
+
+            <!--  QUICK LINKS  -->
+            <div class="col xl3 l3 m6 s12">
+              <ul class="collection with-header" style="border:transparent">
+                  <li class="collection-header center-align  grey darken-3" style="margin:0;padding:0;padding-top:1px;color:#feb44c;font-family:'Times New Roman', Times, serif;"><h4>Quicks Links</h4></li>
+                  <li class="collection-item  grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="notice.html" style="color:#14e2ef;">Notice</a></li>
+                  <li class="collection-item  grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="about.html" style="color:#14e2ef;">Academic Calender</a></li>
+                  <li class="collection-item  grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="about.html" style="color:#14e2ef;">Achievement Of College</a></li>
+                  <li class="collection-item  grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="gst.html" style="color:#14e2ef;">Certificate Course</a></li>
+                  <li class="collection-item  grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="ignou.html" style="color:#14e2ef;">IGNOU</a></li>
+                  <li class="collection-item  grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="ncc.html" style="color:#14e2ef;">NCC</a></li>
+                  <li class="collection-item  grey darken-4" style="margin:0;padding:0;height:30px;padding-top:5px;padding-left:2%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:17px;"><a href="nss.html" style="color:#14e2ef;">NSS</a></li>
+                </ul>
+          </div>
+          <!--  QUICK LINKS END  -->
+
+            <!--  ADDRESS-->
+            <div class="col xl3 l3 m6 s12">
+                <ul class="collection with-header" style="border:transparent">
+                    <li class="collection-header center-align grey darken-3" style="margin:0;padding:0;padding-top:1px;color:#feb44c;font-family:'Times New Roman', Times, serif;"><h4>Address</h4></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:auto;padding-top:18px;padding-left:3%;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:15px;"><a href="#"  target="_blank" style="color:#14e2ef;">
+                        <address>
+                        Marwari College, Bhagalpur<br>
+                        Marwari College Road, Sitanabad<br>
+                        Near Tilkamanjhi Bhagalpur University<br>
+                        Bhagalpur, Bihar<br>
+                        Pin Code-812007<br>
+                        <i class="material-icons white-text">email</i> marwaricollegebgp@gmail.com<br>
+                        <i class="material-icons green-text text-darken-1">phone</i> 0641-2422768
+                        <br><br>
+                        </address>
+                    </li>
+                  </ul>
+            </div>
+             <!--  ADDRESS END-->
+
+             <!-- LOCATION -->
+             <div class="col xl3 l3 m6 s12">
+                <ul class="collection with-header" style="border:transparent">
+                    <li class="collection-header center-align grey darken-3" style="margin:0;padding:0;padding-top:1px;color:#feb44c;font-family:'Times New Roman', Times, serif;"><h4>Location</h4></li>
+                    <li class="collection-item grey darken-4" style="margin:0;padding:0;height:210px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:15px;"><a href="#"  target="_blank" style="color:#14e2ef;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.159560797301!2d86.95485251448538!3d25.24586713592065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f04a711fbf5cc1%3A0xc8c3c86ad4f0c8c0!2sMarwari%20College%2C%20Bhagalpur!5e1!3m2!1sen!2sin!4v1582970508206!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
+                  </ul>
+            </div>
+             <!-- LOCATION END -->
+        </div>
+        <div class="footer-copyright grey darken-3">
+          <div class="container center-align" style="font-size:20px;font-family:Georgia, 'Times New Roman', Times, serif;font-weight:normal;">
+          Designed and developed by: <a class="grey-text text-lighten-4 center" href="#!">THE CREW</a>
+          </div>
+        </div>
+    </div>
+      </footer>
+    <!--   FOOTER END  -->
+
+
+
+    <!-- Compiled and minified Jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav({draggable:true});
+            $(".dropdown-trigger").dropdown({constrainWidth:false});
+            $('.materialboxed').materialbox();
+        });
+    </script>
+</body>
+</html>
+
